@@ -5,6 +5,11 @@ html {
 body {
     font-family: 'Roboto';
     color: #fff;
+    background-image: url(/image/sec1.webp), url(/image/bg.webp);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top;
+    /*background-position: 0 -200px,top;*/
+    background-size: contain, cover;
 }
 
 
@@ -82,8 +87,6 @@ body {
 a {
     text-decoration: none !important;
 }
-
-
 
 #our_team .our-team-items .our-team-item {
     margin-top: 36px;
